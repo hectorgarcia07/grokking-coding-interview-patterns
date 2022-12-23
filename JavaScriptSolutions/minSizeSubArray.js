@@ -16,7 +16,6 @@ function minSubArraylen(target, nums) {
                 //update the window size based on the if it's smalles
                 min = window < min ? window : min
             }
-
             sum -= nums[start]
             window--
             start++
